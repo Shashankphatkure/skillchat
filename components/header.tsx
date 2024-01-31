@@ -66,7 +66,6 @@ export function Header() {
         </a>
         <a
           href="https://finalproject-drab.vercel.app/"
-          target="_blank"
           className={cn(buttonVariants())}
         >
           <IconVercel className="mr-2" />
