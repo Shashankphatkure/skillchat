@@ -57,12 +57,12 @@ export function Header() {
       <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
-          href="https://finalproject-drab.vercel.app/"
+          href="https://virtualinterview.vercel.app/"
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
           <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
+          <span className="hidden ml-2 md:flex">AI Interviews</span>
         </a>
         <a
           href="https://finalproject-drab.vercel.app/"
