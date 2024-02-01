@@ -6,16 +6,16 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Explain technical concepts',
+    heading: 'Interested in technology trends?',
     message: `What is a "serverless function"?`
   },
   {
-    heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    heading: 'Help in learning programming language',
+    message: 'what is objects in javascript?'
   },
   {
-    heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    heading: 'Looking for book suggestions',
+    message: `Book suggestions for learning React.js`
   }
 ]
 
@@ -34,6 +34,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           </ExternalLink>
           .
         </p>
+        <br/>
         <p className="leading-normal text-muted-foreground">
           You can start a conversation here or try the following examples:
         </p>
