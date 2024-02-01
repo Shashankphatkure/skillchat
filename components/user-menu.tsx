@@ -53,12 +53,12 @@ export function UserMenu({ user }: UserMenuProps) {
           <DropdownMenuSeparator />
           <DropdownMenuItem asChild>
             <a
-              href="https://vercel.com"
+              href="https://finalproject-drab.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-between w-full text-xs"
             >
-              Vercel Homepage
+              Skillconnect Homepage
               <IconExternalLink className="size-3 ml-auto" />
             </a>
           </DropdownMenuItem>
