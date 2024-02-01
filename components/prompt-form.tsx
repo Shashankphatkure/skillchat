@@ -60,7 +60,7 @@ export function PromptForm({
               )}
             >
               <IconPlus />
-              <span className="sr-only">New Chat</span>
+              <span className="sr-only">Start New Conversation</span>
             </button>
           </TooltipTrigger>
           <TooltipContent>New Chat</TooltipContent>
