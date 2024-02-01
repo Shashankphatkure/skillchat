@@ -24,13 +24,13 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Skillconnect's Ai Chatbot! Skillchat
+          Welcome to Skillconnect's AI Chatbot! Skillchat
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
+          we can bring the benefits of one-on-one tutoring—deep understanding, confidence, clarity, and empowerment built with{' '}
+          <ExternalLink href="https://finalproject-drab.vercel.app/">Skillconnect</ExternalLink> by{' '}
+          <ExternalLink href="https://finalproject-drab.vercel.app/team">
+            Development team
           </ExternalLink>
           .
         </p>
