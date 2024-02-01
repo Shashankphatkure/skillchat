@@ -6,17 +6,17 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Looking for book suggestions',
-    message: `hear your preferred genres, and I'll recommend your next great read.`
+    heading: 'Explain technical concepts',
+    message: `What is a "serverless function"?`
   },
   {
-    heading: 'Type a programming language you want to explore',
-    message: 'Type a programming language you want to explore, and I ll recommend tutorials, projects, and resources'
+    heading: 'Summarize an article',
+    message: 'Summarize the following article for a 2nd grader: \n'
   },
   {
-    heading: 'Interested in technology trends?',
-    message: `Interested in technology trends? Type a keyword, and I'll provide insights and recommendations in that domain`
-  },
+    heading: 'Draft an email',
+    message: `Draft an email to my boss about the following: \n`
+  }
 ]
 
 export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
