@@ -22,12 +22,23 @@ export async function POST(req: Request) {
     'romantic movie', 
     'action movie', 
     'horror movie', 
-    'thriller movie', 
-    'drama movie', 
     'sci-fi movie', 
-    'fantasy movie', 
-    'animated movie', 
-    'documentary movie'
+    'politics', 
+    'election', 
+    'government', 
+    'democracy', 
+    'republican', 
+    'democrat', 
+    'congress', 
+    'senate', 
+    'president', 
+    'minister', 
+    'parliament', 
+    'policy', 
+    'vote', 
+    'campaign', 
+    'debate', 
+    'legislation',
   ];
 
   // Check if the user's message contains any blocked words
