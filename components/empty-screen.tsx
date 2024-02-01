@@ -16,7 +16,7 @@ const exampleMessages = [
   {
     heading: 'Interested in technology trends?',
     message: `Interested in technology trends? Type a keyword, and I'll provide insights and recommendations in that domain`
-  }
+  },
 ]
 
 export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
