@@ -16,6 +16,34 @@ export async function POST(req: Request) {
   const { messages, previewToken } = json
   const userId = (await auth())?.user.id
 
+  // List of blocked words
+  const blockedWords = [
+    'comedy movie', 
+    'romantic movie', 
+    'action movie', 
+    'horror movie', 
+    'thriller movie', 
+    'drama movie', 
+    'sci-fi movie', 
+    'fantasy movie', 
+    'animated movie', 
+    'documentary movie'
+  ];
+
+  // Check if the user's message contains any blocked words
+  const userMessage = messages[messages.length - 1].content.toLowerCase();
+  const containsBlockedWord = blockedWords.some(word => userMessage.includes(word));
+
+  if (containsBlockedWord) {
+    // If the message contains a blocked word, return a custom response
+    return new Response('Sorry, I can only provide information related to jobs, courses, and internships.', {
+      status: 200
+    })
+  }
+
+
+
+
   if (!userId) {
     return new Response('Unauthorized', {
       status: 401
