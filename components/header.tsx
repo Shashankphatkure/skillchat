@@ -61,14 +61,14 @@ export function Header() {
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
-          <IconGitHub />
+          
           <span className="hidden ml-2 md:flex">AI Interviews</span>
         </a>
         <a
           href="https://finalproject-drab.vercel.app/"
           className={cn(buttonVariants())}
         >
-          <IconVercel className="mr-2" />
+          
           <span className="hidden sm:block">Back to SkillConnect</span>
           <span className="sm:hidden">Deploy</span>
         </a>
